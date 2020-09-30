@@ -3,10 +3,12 @@ from flask import request
 from flask import jsonify
 from flask import make_response
 from flask import abort
+from flask_sqlalchemy import SQLAlchemy
 
 from . controller import create_user
 
 app = Flask(__name__)
+db.SQLAlchemy(app)
 
 
 def _assert(condition, status_code, message):
