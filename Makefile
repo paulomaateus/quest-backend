@@ -21,4 +21,4 @@ $(VENV)/bin/activate: requirements.txt
 	touch $(VENV)/bin/activate
 
 run: venv
-	$(PYTHON) -m $(MODULE)
+	$(PYTHON) -m $(MODULE)p
