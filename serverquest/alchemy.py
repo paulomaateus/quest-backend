@@ -47,4 +47,3 @@ def setup_bd ():
     Base.metadata.create_all(engine)
 
 
-setup_bd()
